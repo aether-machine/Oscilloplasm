@@ -2,7 +2,7 @@ Almost complete schematics for complex dual analog oscillator in tradition of Bu
 
 Modulation oscillator is a self stablizing sine wave based around a trig identity. Basic sine wave (harmonic oscillator) equation is:
 
-y'' + y = 0
+$$ y'' + y = 0 $$
 
 Where the second differential of y is passed through two voltage controlled integrators, with the inversion connected to the input to solve. The complete equation with stabilization is:
 
