@@ -1,4 +1,4 @@
-Almost complete schematics for complex dual analog oscillator in tradition of Buchla 258/259 with redesign from first principles for the digital age. For non-commercial use only, e.g. education, DIY, disrupting the NWO.
+Almost complete schematics for complex dual analog oscillator in tradition of Buchla 258/259 with redesign from first principles for the digital age. For non-commercial use only, e.g. education, DIY, disrupting the NWO etc.
 
 Modulation oscillator is a self stablizing sine wave based around a trig identity. Basic sine wave (harmonic oscillator) equation is:
 
@@ -9,7 +9,7 @@ Where the second differential of y is passed through two voltage controlled inte
 $$ \lambda^2 - 2k \epsilon \lambda + (\omega^2 + k^2 \epsilon^2) = 0 $$
 
 
-Output oscillator is a variable harmonic wavetable that solvesLegendre's Ordinary Differential Equation in real time:
+Output oscillator is a variable harmonic wavetable that solves Legendre's Ordinary Differential Equation in real time:
 
 (1 - x^2) y'' - 2x y' + n(n + 1) y = 0
 
