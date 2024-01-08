@@ -6,6 +6,9 @@ y'' = -y
 
 Where the second differential of y is passed through two voltage controlled integrators, with the inversion connected to the input to solve. (The complete equation with stabilization is too complex to include here.)
 
+$$ \lambda^2 - 2k \epsilon \lambda + (\omega^2 + k^2 \epsilon^2) = 0 $$
+
+
 Output oscillator is a variable harmonic wavetable that solvesLegendre's Ordinary Differential Equation in real time:
 
 (1 - x^2) y'' - 2x y' + n(n + 1) y = 0
