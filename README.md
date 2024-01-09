@@ -16,8 +16,7 @@ $$
 (1 - t^2) \frac{d^2x}{dt^2} - 2t \omega \frac{dx}{dt} + (\omega^2 - l(l+1))x = 0
 $$
 
-
-Thus generating polynomial functions in a completely novel (and sometimes frustrating) way, where L represents the azimuthal quantum number.
+Where L represents the azimuthal quantum number, thus generating polynomial functions in a completely novel (and sometimes frustrating) way.
 
 The stabilization technique in this oscillator is also state of the art, although there is a comprmise between harmonic distortion and ampltiude distortion. Ampltitude distortion as the RMS to DC converter gets stuck in a modulation loop is probably the more destructive force here for audio work. It can be mitigated by avoid rapid changes in oscillator frequency, perhaps by using a slew limiter.
 
