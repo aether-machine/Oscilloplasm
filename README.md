@@ -13,7 +13,7 @@ $$ \lambda^2 - 2k \epsilon \lambda + (\omega^2 + k^2 \epsilon^2) = 0 $$
 Output oscillator is a variable harmonic wavetable that solves Legendre's Ordinary Differential Equation in real time:
 
 $$
-(1 - t^2) \frac{d^2x}{dx^t} - 2t \omega \frac{dx}{dt} + (\omega^2 - l(l+1))x = 0
+(1 - t^2) \frac{d^2x}{dt^2} - 2t \omega \frac{dx}{dt} + (\omega^2 - l(l+1))x = 0
 $$
 
 
