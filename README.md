@@ -5,7 +5,9 @@ $$
 \frac{d^2x}{dt^2} + \omega^2 x = 0
 $$
 
-Where the second differential x'' (with respect to time) is passed through two voltage controlled integrators, and the inversion of the x output connected to the input to solve. The complete equation with stabilization is:
+Where the second differential x'' (with respect to time) is passed through two voltage controlled integrators, and the inversion of the x output connected to the input to solve.  Here, ω=2πf which is the angular frequency of the sine wave.
+
+The complete equation with stabilization is:
 
 $$ \lambda^2 - 2k \epsilon \lambda + (\omega^2 + k^2 \epsilon^2) = 0 $$
 
