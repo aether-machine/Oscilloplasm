@@ -14,7 +14,7 @@ $$
 (1−x^2)y′′−2xωy′+(ω^2−l(l+1))y=0
 $$
 
-Generating polynomial functions in a completely novel and often frustrating way. (Legendre polynomials are similar to Chebyshev.)
+Thus generating polynomial functions in a completely novel (and sometimes frustrating) way, where L represents the azimuthal quantum number.
 
 The stabilization technique in this oscillator is also state of the art, although there is a comprmise between harmonic distortion and ampltiude distortion. Ampltitude distortion as the RMS to DC converter gets stuck in a modulation loop is probably the more destructive force here for audio work. It can be mitigated by avoid rapid changes in oscillator frequency, perhaps by using a slew limiter.
 
