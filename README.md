@@ -2,7 +2,7 @@ Almost complete schematics for complex dual analog oscillator in tradition of Bu
 Modulation oscillator is a self stablizing sine wave based around a trig identity for in the loop gain correction. Basic sine wave (harmonic oscillator) equation is:
 
 $$
-\frac{d^2y}{dx^2} + \omega^2 y = 0
+\frac{d^2x}{dt^2} + \omega^2 x = 0
 $$
 
 Where the second differential y'' is passed through two voltage controlled integrators, with the inversion of the y output connected to the input to solve. The complete equation with stabilization is:
@@ -13,7 +13,7 @@ $$ \lambda^2 - 2k \epsilon \lambda + (\omega^2 + k^2 \epsilon^2) = 0 $$
 Output oscillator is a variable harmonic wavetable that solves Legendre's Ordinary Differential Equation in real time:
 
 $$
-(1 - x^2) \frac{d^2y}{dx^2} - 2x \omega \frac{dy}{dx} + (\omega^2 - l(l+1))y = 0
+(1 - t^2) \frac{d^2x}{dx^t} - 2t \omega \frac{dx}{dt} + (\omega^2 - l(l+1))x = 0
 $$
 
 
