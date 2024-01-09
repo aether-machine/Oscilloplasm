@@ -3,7 +3,7 @@ Modulation oscillator is a self stablizing sine wave based around a trig identit
 
 $$ y′′+ω^2y=0 $$
 
-Where the second differential of y is passed through two voltage controlled integrators, with the inversion connected to the input to solve. The complete equation with stabilization is:
+Where the second differential y'' is passed through two voltage controlled integrators, with the inversion of the y output connected to the input to solve. The complete equation with stabilization is:
 
 $$ \lambda^2 - 2k \epsilon \lambda + (\omega^2 + k^2 \epsilon^2) = 0 $$
 
