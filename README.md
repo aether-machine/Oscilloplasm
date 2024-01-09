@@ -11,8 +11,9 @@ $$ \lambda^2 - 2k \epsilon \lambda + (\omega^2 + k^2 \epsilon^2) = 0 $$
 Output oscillator is a variable harmonic wavetable that solves Legendre's Ordinary Differential Equation in real time:
 
 $$
-(1−x^2)y′′−2xωy′+(ω^2−l(l+1))y=0
+(1 - x^2) \frac{d^2y}{dx^2} - 2x \omega \frac{dy}{dx} + (\omega^2 - l(l+1))y = 0
 $$
+
 
 Thus generating polynomial functions in a completely novel (and sometimes frustrating) way, where L represents the azimuthal quantum number.
 
