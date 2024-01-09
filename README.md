@@ -1,7 +1,9 @@
 Almost complete schematics for complex dual analog oscillator in tradition of Buchla 258/259 with redesign from first principles for the digital age. For non-commercial use only, e.g. education, DIY.
 Modulation oscillator is a self stablizing sine wave based around a trig identity for in the loop gain correction. Basic sine wave (harmonic oscillator) equation is:
 
-$$ y′′+ω^2y=0 $$
+$$
+\frac{d^2y}{dx^2} + \omega^2 y = 0
+$$
 
 Where the second differential y'' is passed through two voltage controlled integrators, with the inversion of the y output connected to the input to solve. The complete equation with stabilization is:
 
