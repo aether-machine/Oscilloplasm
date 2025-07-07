@@ -29,3 +29,8 @@ Where L represents the azimuthal quantum number, thus generating polynomial func
 The stabilization technique in this oscillator is also state of the art, although there is a compromise between harmonic distortion and ampltiude distortion. Ampltitude distortion as the RMS to DC converter gets stuck in a modulation loop is probably the more destructive force here for audio work. It can be mitigated by avoiding rapid changes in oscillator frequency, perhaps by using a slew limiter on your seqeuncer.
 
 Output oscillator uses four quadrant multipliers and is designed for through zero behaviour.
+
+
+
+[![DOI](https://zenodo.org/badge/721372010.svg)](https://doi.org/10.5281/zenodo.15828937)
+
